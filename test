@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Final · Prototipado</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="hero">
+    <p class="eyebrow">Proyecto final · Prototipado</p>
+    <h1>El Archivo de la Historia: ciclo completo de validación</h1>
+    <p class="intro">
+      Entrega final del módulo: transformar una idea educativa en un prototipo tangible,
+      testearlo con usuarios reales, procesar el feedback y decidir cómo mejorar la propuesta.
+    </p>
+
+    <div class="stats">
+      <div><strong>4</strong><span>fases completadas</span></div>
+      <div><strong>1</strong><span>ciclo de iteración</span></div>
+      <div><strong>6</strong><span>testers</span></div>
+      <div><strong>4</strong><span>hipótesis validadas</span></div>
+    </div>
+
+    <div class="hero-buttons">
+      <a href="#ciclo">Ver el ciclo</a>
+      <a href="#opcional">Actividades opcionales</a>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="#competencia">Competencia</a>
+    <a href="#proyecto">Proyecto</a>
+    <a href="#ciclo">Ciclo</a>
+    <a href="#fase1">Fase 1</a>
+    <a href="#fase2">Fase 2</a>
+    <a href="#fase3">Fase 3</a>
+    <a href="#fase4">Fase 4</a>
+    <a href="#cierre">Cierre</a>
+  </nav>
+
+  <main>
+
+    <section id="proyecto" class="section">
+      <p class="eyebrow">La Maleta del Tiempo</p>
+      <h2>De la idea al aprendizaje validado</h2>
+      <p>
+        Escape room educativo inclusivo que combina narrativa histórica, retos STEAM,
+        apoyos DUA y gamificación.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>8 eras históricas</h3>
+          <p>Una estructura narrativa para recorrer distintas etapas de la historia.</p>
+        </article>
+
+        <article class="card">
+          <h3>DUA</h3>
+          <p>Acceso múltiple y apoyos para diferentes ritmos y necesidades.</p>
+        </article>
+
+        <article class="card">
+          <h3>STEAM</h3>
+          <p>Retos activos que combinan pensamiento lógico, creatividad y manipulación.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="competencia" class="section">
+      <p class="eyebrow">Competencia del módulo</p>
+      <h2>Prototipar, testear y aprender del feedback</h2>
+      <p>
+        A lo largo del módulo se ha desarrollado la competencia de crear un prototipo
+        adecuado al contexto del proyecto y obtener feedback de usuarios reales.
+      </p>
+
+      <div class="three-columns">
+        <article class="card">
+          <h3>Tangibilizar la idea</h3>
+          <p>Convertir la propuesta en una experiencia observable.</p>
+        </article>
+
+        <article class="card">
+          <h3>Validar con usuarios</h3>
+          <p>Observar comprensión, participación, autonomía y emoción.</p>
+        </article>
+
+        <article class="card">
+          <h3>Aprender e iterar</h3>
+          <p>Transformar el feedback en decisiones de mejora.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="ciclo" class="section highlight">
+      <p class="eyebrow">Ciclo de iteración</p>
+      <h2>Objetivo, hipótesis y recorrido completo</h2>
+
+      <div class="timeline">
+        <div>
+          <span>1</span>
+          <h3>Definir</h3>
+          <p>Identificar qué puntos clave validar.</p>
+        </div>
+
+        <div>
+          <span>2</span>
+          <h3>Construir</h3>
+          <p>Crear una versión mínima comunicable.</p>
+        </div>
+
+        <div>
+          <span>3</span>
+          <h3>Testear</h3>
+          <p>Observar interacción real y recoger evidencias.</p>
+        </div>
+
+        <div>
+          <span>4</span>
+          <h3>Aprender</h3>
+          <p>Convertir feedback en decisiones de mejora.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="fase1" class="section">
+      <p class="eyebrow">Fase 1</p>
+      <h2>Value Proposition Canvas</h2>
+      <p>
+        En el Sprint 1 se conectaron las necesidades del alumnado con la propuesta
+        de valor del escape room inclusivo.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Elemento</th>
+            <th>Decisión</th>
+            <th>Motivo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Comprensión de la misión</td>
+            <td>Incluir</td>
+            <td>Sin esto no hay experiencia posible.</td>
+          </tr>
+          <tr>
+            <td>Roles cooperativos</td>
+            <td>Incluir</td>
+            <td>Evita observadores pasivos en el grupo.</td>
+          </tr>
+          <tr>
+            <td>8 eras históricas</td>
+            <td>Posponer</td>
+            <td>Escalar antes de validar aumentaría la incertidumbre.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="fase2" class="section">
+      <p class="eyebrow">Fase 2</p>
+      <h2>Creación del prototipo</h2>
+      <p>
+        Se materializó la idea en una microexperiencia testeable con narrativa,
+        materiales manipulativos, roles, pistas y cierre visible.
+      </p>
+    </section>
+
+    <section id="fase3" class="section">
+      <p class="eyebrow">Fase 3</p>
+      <h2>Matriz de feedback</h2>
+      <p>
+        Se combinaron playtest, test de usuario, focus group y entrevista cualitativa
+        para obtener feedback procesable.
+      </p>
+    </section>
+
+    <section id="fase4" class="section">
+      <p class="eyebrow">Fase 4</p>
+      <h2>Aprendizaje validado y ajustes</h2>
+      <p>
+        El núcleo narrativo y manipulativo funciona, pero la entrada, los roles,
+        el sistema de pistas y el cierre necesitan una nueva iteración.
+      </p>
+    </section>
+
+    <section id="cierre" class="section final">
+      <p class="eyebrow">Conclusión final</p>
+      <h2>El valor está en aprender del prototipo</h2>
+      <p>
+        El proyecto tiene potencial como recurso educativo gamificado e inclusivo,
+        pero su evolución debe centrarse en claridad, accesibilidad, autonomía y aplicación docente.
+      </p>
+    </section>
+
+  </main>
+
+</body>
+</html>
